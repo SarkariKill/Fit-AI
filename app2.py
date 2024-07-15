@@ -1,5 +1,5 @@
 import subprocess
-enviroment_build_command = "pip install -r requirements.txt"
+environment_build_command = "pip install -r requirements.txt"
 subprocess.run(environment_build_command.split(" "))
 
 import json
