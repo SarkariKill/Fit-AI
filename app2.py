@@ -303,7 +303,7 @@ Welcome to the Rep Counter page of Fit AI! This page is designed to help you tra
                 FRAME_WINDOW.image(image)
 
         cap.release()
-        cv2.destroyAllWindows()
+        
     
     elif exercise == "Jumping Jacks":
         st.markdown("""
@@ -390,7 +390,7 @@ Welcome to the Rep Counter page of Fit AI! This page is designed to help you tra
                 FRAME_WINDOW.image(image)
 
         cap.release()
-        cv2.destroyAllWindows()
+        
     
     elif exercise == "Pushups":
         st.markdown("""
@@ -476,7 +476,7 @@ Welcome to the Rep Counter page of Fit AI! This page is designed to help you tra
                 FRAME_WINDOW.image(image)
 
         cap.release()
-        cv2.destroyAllWindows()
+        
 
     elif exercise == "Shoulder Press":
         st.markdown("""
@@ -560,7 +560,7 @@ Welcome to the Rep Counter page of Fit AI! This page is designed to help you tra
                 FRAME_WINDOW.image(image)
 
         cap.release()
-        cv2.destroyAllWindows()
+        
       
     elif exercise == "Squats":
         st.markdown("""
@@ -644,7 +644,7 @@ Welcome to the Rep Counter page of Fit AI! This page is designed to help you tra
                 FRAME_WINDOW.image(image)
 
         cap.release()
-        cv2.destroyAllWindows()
+        
     
     # Unstable Exercise
     elif exercise == "Crunches":
@@ -730,7 +730,7 @@ Welcome to the Rep Counter page of Fit AI! This page is designed to help you tra
                 FRAME_WINDOW.image(image)
                 
          cap.release()
-         cv2.destroyAllWindows()
+         
 
 
 #Footer
