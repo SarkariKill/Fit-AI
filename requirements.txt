@@ -1,8 +1,8 @@
-mediapipe==0.10.14
-numpy==2.0.0
-opencv_contrib_python==4.10.0.84
-opencv_python==4.10.0.84
-opencv_python_headless==4.10.0.84
-Pillow==10.4.0
-streamlit==1.36.0
-streamlit_lottie==0.0.5
+mediapipe
+numpy
+opencv_contrib_python
+opencv_python
+opencv_python_headless
+Pillow
+streamlit
+streamlit_lottie
