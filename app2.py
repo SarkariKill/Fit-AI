@@ -1,6 +1,6 @@
-import subprocess
-environment_build_command = "pip install -r requirements.txt"
-subprocess.run(environment_build_command.split(" "))
+# import subprocess
+# environment_build_command = "pip install -r requirements.txt"
+# subprocess.run(environment_build_command.split(" "))
 
 import json
 import streamlit as st
