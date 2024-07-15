@@ -6,6 +6,11 @@ from PIL import Image
 from streamlit_lottie import st_lottie 
 import numpy as np
 
+import subprocess
+
+enviroment_build_command = "pip install -r requirements.txt"
+
+subprocess.run(environment_build_command.split(" "))
 
 # Navigation Bar
 # Define the navigation options
